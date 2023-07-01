@@ -13,6 +13,8 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   } }
 }
 
+#(set-global-staff-size 18)
+
 \paper {
   #(set-paper-size "a4")
   evenHeaderMarkup = \markup { \if \should-print-page-number { \fill-line { "" \fromproperty #'page:page-number-string } } }

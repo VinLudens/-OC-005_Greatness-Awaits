@@ -101,7 +101,7 @@ right = \relative c'' {
   <b, d fis b>8. <a a'> <fis fis'> <b d fis b>8. <a a'> <fis fis'> |
   <e a cis e>8. <fis a cis fis>4. <g b e g>8. <fis a d fis>4. |
   <b d fis b>8. <a a'> <fis fis'> <b d fis b>8. <a a'> <cis cis'> |
-  <d fis a d>8. <cis fis a cis>4. <d fis a d>8. <e a cis e>4.-> ~ |
+  <d fis a d>8. <cis fis a cis>4. <d fis a d>8. \once\override Score.Tie.layer = #-2 <e a cis e>4.-> ~ | \once\override Score.TimeSignature.layer = #-1 \once\override Score.TimeSignature.whiteout = #3
 
   \time 6/8
   

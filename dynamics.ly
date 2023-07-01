@@ -21,7 +21,7 @@ dynamics = {
   s1\f | s1 |
   s2 s16 s8.\> s8. s16\! |
   s2\mp s4 s4_"rall." |
-  s2. s4_"a tempo" |
+  s2. s4-\tweak X-offset #-1.0 _"a tempo" |
   s1 | 
   s4 s8 s8\> s4_"rall." s4\! |
   s1\p | s1 | 
@@ -31,7 +31,7 @@ dynamics = {
   s8\fp s1 | 
   s8\mf s1 | 
   s8\fp s1 | 
-  s8\mf s1 | 
+  s8-\tweak X-offset #-0.3 -\mf s1 |
   s8.\< s4.\!\> s8.\!\< s4\!\> s16 s\! |
   s8\mf s1 | 
   s8.\< s4.\! s8.\< s4 s16 s\! |
